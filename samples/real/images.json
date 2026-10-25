@@ -1,0 +1,46 @@
+[
+  {
+    "id": "pix-commons-qrcode-pix-4",
+    "file": "images/pix-commons-qrcode-pix-4.png",
+    "scheme": "pix",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qrcode-pix_(4).png",
+    "author": "Alvineokwokq1o2k2",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "notes": "",
+    "expectedPayload": "00020126580014BR.GOV.BCB.PIX01368aba2966-737b-4f2c-97e2-41bc82030e04520400005303986540544.355802BR5916correiosdobrasil6010curitibapr62240520PAGAMENTOTX4324323236304E7D5"
+  },
+  {
+    "id": "qris-commons-valfar-store",
+    "file": "images/qris-commons-valfar-store.png",
+    "scheme": "qris",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qris_allpay.png",
+    "author": "K1NK VALFAR",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "notes": "",
+    "expectedPayload": "00020101021126570011ID.DANA.WWW011893600915397809524402099780952440303UMI51440014ID.CO.QRIS.WWW0215ID10254261614810303UMI5204549953033605802ID5912VALFAR STORE6011Kota Bekasi6105174116304B785"
+  },
+  {
+    "id": "qris-commons-qris-payment",
+    "file": "images/qris-commons-qris-payment.jpg",
+    "scheme": "qris",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qris_payment.jpg",
+    "author": "Pian2011",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "notes": "",
+    "expectedPayload": "00020101021126670016COM.NOBUBANK.WWW01189360050300000879140214250929000000320303UMI51440014ID.CO.QRIS.WWW0215ID20254395699840303UMI5204481253033605802ID5921Garuda Cell Ok26394636006SIDRAP61059161162070703A01630493E6"
+  },
+  {
+    "id": "other-commons-sgqr-liho-tea",
+    "file": "images/other-commons-sgqr-liho-tea.jpg",
+    "scheme": "other",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SGQR_NETS_pay_at_Liho_Tea_in_Queensway_Shopping_Centre,_Singapore_(2025).jpg",
+    "author": "Chainwit.",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "notes": "Resized to 2400 px on the long side (original 4032 px, 2.2 MB) to keep the repo small.",
+    "expectedPayload": "00020101021126720008com.grab01329a192e7129b74430b4e6c8f4976c99f402012520458125303702580227810011SG.COM.NETS01231198500065G9912312359000211111517787000308517787019908FB51965828350009SG.AIRPAY011893600918000001051851810007SG.SGQR01121903142E6561020701.001703061490530402010503K58060400000708202310175204581253037025802SG5918LIHO TEA QUEENSWAY6009Singapore6304217B"
+  }
+]

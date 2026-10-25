@@ -1,0 +1,1346 @@
+# npm test, 2026-10-25T07:35:47Z, node v20.20.0, Darwin arm64
+TAP version 13
+# Subtest: corpus is not empty
+ok 1 - corpus is not empty
+  ---
+  duration_ms: 0.624333
+  ...
+# Subtest: real other-emvco-spec-appendix-01: parses, CRC as recorded
+ok 2 - real other-emvco-spec-appendix-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.920125
+  ...
+# Subtest: other-emvco-spec-appendix-01: a one-character change breaks the CRC
+ok 3 - other-emvco-spec-appendix-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.383042
+  ...
+# Subtest: real pix-pix-brcode-01: parses, CRC as recorded
+ok 4 - real pix-pix-brcode-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.131375
+  ...
+# Subtest: pix-pix-brcode-01: a one-character change breaks the CRC
+ok 5 - pix-pix-brcode-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.457458
+  ...
+# Subtest: real promptpay-promptpay-qr-01: parses, CRC as recorded
+ok 6 - real promptpay-promptpay-qr-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.110542
+  ...
+# Subtest: promptpay-promptpay-qr-01: a one-character change breaks the CRC
+ok 7 - promptpay-promptpay-qr-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.126958
+  ...
+# Subtest: real promptpay-promptpay-qr-02: parses, CRC as recorded
+ok 8 - real promptpay-promptpay-qr-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.080042
+  ...
+# Subtest: promptpay-promptpay-qr-02: a one-character change breaks the CRC
+ok 9 - promptpay-promptpay-qr-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 2.590042
+  ...
+# Subtest: real promptpay-promptpay-qr-03: parses, CRC as recorded
+ok 10 - real promptpay-promptpay-qr-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.325
+  ...
+# Subtest: promptpay-promptpay-qr-03: a one-character change breaks the CRC
+ok 11 - promptpay-promptpay-qr-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.159084
+  ...
+# Subtest: real promptpay-promptpay-qr-04: parses, CRC as recorded
+ok 12 - real promptpay-promptpay-qr-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.087083
+  ...
+# Subtest: promptpay-promptpay-qr-04: a one-character change breaks the CRC
+ok 13 - promptpay-promptpay-qr-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.171708
+  ...
+# Subtest: real promptpay-promptpay-qr-05: parses, CRC as recorded
+ok 14 - real promptpay-promptpay-qr-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.15125
+  ...
+# Subtest: promptpay-promptpay-qr-05: a one-character change breaks the CRC
+ok 15 - promptpay-promptpay-qr-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.09675
+  ...
+# Subtest: real promptpay-promptpay-qr-06: parses, CRC as recorded
+ok 16 - real promptpay-promptpay-qr-06: parses, CRC as recorded
+  ---
+  duration_ms: 0.154542
+  ...
+# Subtest: promptpay-promptpay-qr-06: a one-character change breaks the CRC
+ok 17 - promptpay-promptpay-qr-06: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.108875
+  ...
+# Subtest: real pix-pix-brcode-02: parses, CRC as recorded
+ok 18 - real pix-pix-brcode-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.221625
+  ...
+# Subtest: pix-pix-brcode-02: a one-character change breaks the CRC
+ok 19 - pix-pix-brcode-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.2295
+  ...
+# Subtest: real pix-pix-brcode-03: parses, CRC as recorded
+ok 20 - real pix-pix-brcode-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.150375
+  ...
+# Subtest: pix-pix-brcode-03: a one-character change breaks the CRC
+ok 21 - pix-pix-brcode-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.146333
+  ...
+# Subtest: real promptpay-promptpay-01: parses, CRC as recorded
+ok 22 - real promptpay-promptpay-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.062208
+  ...
+# Subtest: promptpay-promptpay-01: a one-character change breaks the CRC
+ok 23 - promptpay-promptpay-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.099791
+  ...
+# Subtest: real promptpay-promptpay-02: parses, CRC as recorded
+ok 24 - real promptpay-promptpay-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.076459
+  ...
+# Subtest: promptpay-promptpay-02: a one-character change breaks the CRC
+ok 25 - promptpay-promptpay-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.076167
+  ...
+# Subtest: real promptpay-promptpay-03: parses, CRC as recorded
+ok 26 - real promptpay-promptpay-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.04975
+  ...
+# Subtest: promptpay-promptpay-03: a one-character change breaks the CRC
+ok 27 - promptpay-promptpay-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.064041
+  ...
+# Subtest: real promptpay-promptpay-04: parses, CRC as recorded
+ok 28 - real promptpay-promptpay-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.04825
+  ...
+# Subtest: promptpay-promptpay-04: a one-character change breaks the CRC
+ok 29 - promptpay-promptpay-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.0655
+  ...
+# Subtest: real promptpay-promptpay-05: parses, CRC as recorded
+ok 30 - real promptpay-promptpay-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.171083
+  ...
+# Subtest: promptpay-promptpay-05: a one-character change breaks the CRC
+ok 31 - promptpay-promptpay-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.068208
+  ...
+# Subtest: real promptpay-promptpay-06: parses, CRC as recorded
+ok 32 - real promptpay-promptpay-06: parses, CRC as recorded
+  ---
+  duration_ms: 0.043167
+  ...
+# Subtest: promptpay-promptpay-06: a one-character change breaks the CRC
+ok 33 - promptpay-promptpay-06: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.173958
+  ...
+# Subtest: real promptpay-promptpay-07: parses, CRC as recorded
+ok 34 - real promptpay-promptpay-07: parses, CRC as recorded
+  ---
+  duration_ms: 0.045042
+  ...
+# Subtest: promptpay-promptpay-07: a one-character change breaks the CRC
+ok 35 - promptpay-promptpay-07: a one-character change breaks the CRC
+  ---
+  duration_ms: 1.358166
+  ...
+# Subtest: real promptpay-promptpay-08: parses, CRC as recorded
+ok 36 - real promptpay-promptpay-08: parses, CRC as recorded
+  ---
+  duration_ms: 0.476875
+  ...
+# Subtest: promptpay-promptpay-08: a one-character change breaks the CRC
+ok 37 - promptpay-promptpay-08: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.298292
+  ...
+# Subtest: real promptpay-promptpay-09: parses, CRC as recorded
+ok 38 - real promptpay-promptpay-09: parses, CRC as recorded
+  ---
+  duration_ms: 0.1275
+  ...
+# Subtest: promptpay-promptpay-09: a one-character change breaks the CRC
+ok 39 - promptpay-promptpay-09: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.136958
+  ...
+# Subtest: real promptpay-promptpay-10: parses, CRC as recorded
+ok 40 - real promptpay-promptpay-10: parses, CRC as recorded
+  ---
+  duration_ms: 0.09575
+  ...
+# Subtest: promptpay-promptpay-10: a one-character change breaks the CRC
+ok 41 - promptpay-promptpay-10: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.128
+  ...
+# Subtest: real promptpay-promptpay-11: parses, CRC as recorded
+ok 42 - real promptpay-promptpay-11: parses, CRC as recorded
+  ---
+  duration_ms: 0.135292
+  ...
+# Subtest: promptpay-promptpay-11: a one-character change breaks the CRC
+ok 43 - promptpay-promptpay-11: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.128458
+  ...
+# Subtest: real qris-qris-parser-01: parses, CRC as recorded
+ok 44 - real qris-qris-parser-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.185375
+  ...
+# Subtest: qris-qris-parser-01: a one-character change breaks the CRC
+ok 45 - qris-qris-parser-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.184833
+  ...
+# Subtest: real other-qris-parser-01: parses, CRC as recorded
+ok 46 - real other-qris-parser-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.081875
+  ...
+# Subtest: other-qris-parser-01: a one-character change breaks the CRC
+ok 47 - other-qris-parser-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.097958
+  ...
+# Subtest: real other-qris-parser-02: parses, CRC as recorded
+ok 48 - real other-qris-parser-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.071334
+  ...
+# Subtest: real promptpay-php-promptpay-qr-01: parses, CRC as recorded
+ok 49 - real promptpay-php-promptpay-qr-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.091
+  ...
+# Subtest: promptpay-php-promptpay-qr-01: a one-character change breaks the CRC
+ok 50 - promptpay-php-promptpay-qr-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.124958
+  ...
+# Subtest: real promptpay-php-promptpay-qr-02: parses, CRC as recorded
+ok 51 - real promptpay-php-promptpay-qr-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.097917
+  ...
+# Subtest: promptpay-php-promptpay-qr-02: a one-character change breaks the CRC
+ok 52 - promptpay-php-promptpay-qr-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.12375
+  ...
+# Subtest: real promptpay-php-promptpay-qr-03: parses, CRC as recorded
+ok 53 - real promptpay-php-promptpay-qr-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.092958
+  ...
+# Subtest: promptpay-php-promptpay-qr-03: a one-character change breaks the CRC
+ok 54 - promptpay-php-promptpay-qr-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.122167
+  ...
+# Subtest: real promptpay-promptparse-01: parses, CRC as recorded
+ok 55 - real promptpay-promptparse-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.09025
+  ...
+# Subtest: real promptpay-promptparse-02: parses, CRC as recorded
+ok 56 - real promptpay-promptparse-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.125833
+  ...
+# Subtest: promptpay-promptparse-02: a one-character change breaks the CRC
+ok 57 - promptpay-promptparse-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.117541
+  ...
+# Subtest: real promptpay-promptparse-03: parses, CRC as recorded
+ok 58 - real promptpay-promptparse-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.084959
+  ...
+# Subtest: promptpay-promptparse-03: a one-character change breaks the CRC
+ok 59 - promptpay-promptparse-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.171167
+  ...
+# Subtest: real promptpay-promptparse-04: parses, CRC as recorded
+ok 60 - real promptpay-promptparse-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.108166
+  ...
+# Subtest: promptpay-promptparse-04: a one-character change breaks the CRC
+ok 61 - promptpay-promptparse-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.129416
+  ...
+# Subtest: real promptpay-promptparse-05: parses, CRC as recorded
+ok 62 - real promptpay-promptparse-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.088083
+  ...
+# Subtest: promptpay-promptparse-05: a one-character change breaks the CRC
+ok 63 - promptpay-promptparse-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.117042
+  ...
+# Subtest: real promptpay-promptparse-06: parses, CRC as recorded
+ok 64 - real promptpay-promptparse-06: parses, CRC as recorded
+  ---
+  duration_ms: 0.265292
+  ...
+# Subtest: promptpay-promptparse-06: a one-character change breaks the CRC
+ok 65 - promptpay-promptparse-06: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.249417
+  ...
+# Subtest: real promptpay-promptparse-07: parses, CRC as recorded
+ok 66 - real promptpay-promptparse-07: parses, CRC as recorded
+  ---
+  duration_ms: 0.072208
+  ...
+# Subtest: promptpay-promptparse-07: a one-character change breaks the CRC
+ok 67 - promptpay-promptparse-07: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.065167
+  ...
+# Subtest: real promptpay-promptparse-08: parses, CRC as recorded
+ok 68 - real promptpay-promptparse-08: parses, CRC as recorded
+  ---
+  duration_ms: 0.042166
+  ...
+# Subtest: promptpay-promptparse-08: a one-character change breaks the CRC
+ok 69 - promptpay-promptparse-08: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.050708
+  ...
+# Subtest: real promptpay-promptparse-09: parses, CRC as recorded
+ok 70 - real promptpay-promptparse-09: parses, CRC as recorded
+  ---
+  duration_ms: 0.039416
+  ...
+# Subtest: promptpay-promptparse-09: a one-character change breaks the CRC
+ok 71 - promptpay-promptparse-09: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.053125
+  ...
+# Subtest: real other-emvco-qr-sdk-01: parses, CRC as recorded
+ok 72 - real other-emvco-qr-sdk-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.098917
+  ...
+# Subtest: real other-emvco-qr-sdk-02: parses, CRC as recorded
+ok 73 - real other-emvco-qr-sdk-02: parses, CRC as recorded
+  ---
+  duration_ms: 1.355
+  ...
+# Subtest: real other-emvco-qr-sdk-03: parses, CRC as recorded
+ok 74 - real other-emvco-qr-sdk-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.217542
+  ...
+# Subtest: real khqr-khqr-sdk-01: parses, CRC as recorded
+ok 75 - real khqr-khqr-sdk-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.117916
+  ...
+# Subtest: khqr-khqr-sdk-01: a one-character change breaks the CRC
+ok 76 - khqr-khqr-sdk-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.169291
+  ...
+# Subtest: real khqr-khqr-sdk-02: parses, CRC as recorded
+ok 77 - real khqr-khqr-sdk-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.098125
+  ...
+# Subtest: khqr-khqr-sdk-02: a one-character change breaks the CRC
+ok 78 - khqr-khqr-sdk-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.134125
+  ...
+# Subtest: real napas-vietqr-01: parses, CRC as recorded
+ok 79 - real napas-vietqr-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.147
+  ...
+# Subtest: napas-vietqr-01: a one-character change breaks the CRC
+ok 80 - napas-vietqr-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.138417
+  ...
+# Subtest: real napas-vietqr-02: parses, CRC as recorded
+ok 81 - real napas-vietqr-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.096084
+  ...
+# Subtest: napas-vietqr-02: a one-character change breaks the CRC
+ok 82 - napas-vietqr-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.131459
+  ...
+# Subtest: real napas-vietqr-03: parses, CRC as recorded
+ok 83 - real napas-vietqr-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.096083
+  ...
+# Subtest: napas-vietqr-03: a one-character change breaks the CRC
+ok 84 - napas-vietqr-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.132167
+  ...
+# Subtest: real napas-vietqr-04: parses, CRC as recorded
+ok 85 - real napas-vietqr-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.147042
+  ...
+# Subtest: napas-vietqr-04: a one-character change breaks the CRC
+ok 86 - napas-vietqr-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.294583
+  ...
+# Subtest: real pix-ex-pix-brcode-01: parses, CRC as recorded
+ok 87 - real pix-ex-pix-brcode-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.1665
+  ...
+# Subtest: pix-ex-pix-brcode-01: a one-character change breaks the CRC
+ok 88 - pix-ex-pix-brcode-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.182125
+  ...
+# Subtest: real pix-ex-pix-brcode-02: parses, CRC as recorded
+ok 89 - real pix-ex-pix-brcode-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.165916
+  ...
+# Subtest: pix-ex-pix-brcode-02: a one-character change breaks the CRC
+ok 90 - pix-ex-pix-brcode-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.18625
+  ...
+# Subtest: real pix-ex-pix-brcode-03: parses, CRC as recorded
+ok 91 - real pix-ex-pix-brcode-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.150917
+  ...
+# Subtest: pix-ex-pix-brcode-03: a one-character change breaks the CRC
+ok 92 - pix-ex-pix-brcode-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.177625
+  ...
+# Subtest: real pix-ex-pix-brcode-04: parses, CRC as recorded
+ok 93 - real pix-ex-pix-brcode-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.179292
+  ...
+# Subtest: pix-ex-pix-brcode-04: a one-character change breaks the CRC
+ok 94 - pix-ex-pix-brcode-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.187916
+  ...
+# Subtest: real pix-ex-pix-brcode-05: parses, CRC as recorded
+ok 95 - real pix-ex-pix-brcode-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.169875
+  ...
+# Subtest: pix-ex-pix-brcode-05: a one-character change breaks the CRC
+ok 96 - pix-ex-pix-brcode-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.229916
+  ...
+# Subtest: real qrph-qrph-01: parses, CRC as recorded
+ok 97 - real qrph-qrph-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.088791
+  ...
+# Subtest: qrph-qrph-01: a one-character change breaks the CRC
+ok 98 - qrph-qrph-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.089833
+  ...
+# Subtest: real qrph-qrph-02: parses, CRC as recorded
+ok 99 - real qrph-qrph-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.055708
+  ...
+# Subtest: qrph-qrph-02: a one-character change breaks the CRC
+ok 100 - qrph-qrph-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.078959
+  ...
+# Subtest: real qrph-qrph-03: parses, CRC as recorded
+ok 101 - real qrph-qrph-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.048334
+  ...
+# Subtest: qrph-qrph-03: a one-character change breaks the CRC
+ok 102 - qrph-qrph-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.068541
+  ...
+# Subtest: real qrph-qrph-04: parses, CRC as recorded
+ok 103 - real qrph-qrph-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.048083
+  ...
+# Subtest: qrph-qrph-04: a one-character change breaks the CRC
+ok 104 - qrph-qrph-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.074292
+  ...
+# Subtest: real qrph-qrph-05: parses, CRC as recorded
+ok 105 - real qrph-qrph-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.048375
+  ...
+# Subtest: qrph-qrph-05: a one-character change breaks the CRC
+ok 106 - qrph-qrph-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.072
+  ...
+# Subtest: real qrph-qrph-06: parses, CRC as recorded
+ok 107 - real qrph-qrph-06: parses, CRC as recorded
+  ---
+  duration_ms: 0.047333
+  ...
+# Subtest: qrph-qrph-06: a one-character change breaks the CRC
+ok 108 - qrph-qrph-06: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.069708
+  ...
+# Subtest: real qrph-qrph-07: parses, CRC as recorded
+ok 109 - real qrph-qrph-07: parses, CRC as recorded
+  ---
+  duration_ms: 0.048291
+  ...
+# Subtest: qrph-qrph-07: a one-character change breaks the CRC
+ok 110 - qrph-qrph-07: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.072458
+  ...
+# Subtest: real qrph-qrph-08: parses, CRC as recorded
+ok 111 - real qrph-qrph-08: parses, CRC as recorded
+  ---
+  duration_ms: 0.060417
+  ...
+# Subtest: qrph-qrph-08: a one-character change breaks the CRC
+ok 112 - qrph-qrph-08: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.092958
+  ...
+# Subtest: real qrph-qrph-09: parses, CRC as recorded
+ok 113 - real qrph-qrph-09: parses, CRC as recorded
+  ---
+  duration_ms: 0.058042
+  ...
+# Subtest: qrph-qrph-09: a one-character change breaks the CRC
+ok 114 - qrph-qrph-09: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.094417
+  ...
+# Subtest: real qrph-qrph-10: parses, CRC as recorded
+ok 115 - real qrph-qrph-10: parses, CRC as recorded
+  ---
+  duration_ms: 0.046208
+  ...
+# Subtest: qrph-qrph-10: a one-character change breaks the CRC
+ok 116 - qrph-qrph-10: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.089041
+  ...
+# Subtest: real qrph-qrph-11: parses, CRC as recorded
+ok 117 - real qrph-qrph-11: parses, CRC as recorded
+  ---
+  duration_ms: 0.041083
+  ...
+# Subtest: qrph-qrph-11: a one-character change breaks the CRC
+ok 118 - qrph-qrph-11: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.057
+  ...
+# Subtest: real qrph-qrph-12: parses, CRC as recorded
+ok 119 - real qrph-qrph-12: parses, CRC as recorded
+  ---
+  duration_ms: 0.055917
+  ...
+# Subtest: qrph-qrph-12: a one-character change breaks the CRC
+ok 120 - qrph-qrph-12: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.1105
+  ...
+# Subtest: real qrph-qrph-13: parses, CRC as recorded
+ok 121 - real qrph-qrph-13: parses, CRC as recorded
+  ---
+  duration_ms: 0.065125
+  ...
+# Subtest: real napas-vietqr-05: parses, CRC as recorded
+ok 122 - real napas-vietqr-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.044916
+  ...
+# Subtest: napas-vietqr-05: a one-character change breaks the CRC
+ok 123 - napas-vietqr-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.056333
+  ...
+# Subtest: real promptpay-promptparse-rs-01: parses, CRC as recorded
+ok 124 - real promptpay-promptparse-rs-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.038584
+  ...
+# Subtest: real promptpay-promptparse-rs-02: parses, CRC as recorded
+ok 125 - real promptpay-promptparse-rs-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.039125
+  ...
+# Subtest: real other-promptparse-rs-01: parses, CRC as recorded
+ok 126 - real other-promptparse-rs-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.028208
+  ...
+# Subtest: other-promptparse-rs-01: a one-character change breaks the CRC
+ok 127 - other-promptparse-rs-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.038375
+  ...
+# Subtest: real napas-napas-qr-01: parses, CRC as recorded
+ok 128 - real napas-napas-qr-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.046709
+  ...
+# Subtest: napas-napas-qr-01: a one-character change breaks the CRC
+ok 129 - napas-napas-qr-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.068083
+  ...
+# Subtest: real napas-vietnam-qr-pay-01: parses, CRC as recorded
+ok 130 - real napas-vietnam-qr-pay-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.043
+  ...
+# Subtest: napas-vietnam-qr-pay-01: a one-character change breaks the CRC
+ok 131 - napas-vietnam-qr-pay-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.061625
+  ...
+# Subtest: real vnpay-vietnam-qr-pay-01: parses, CRC as recorded
+ok 132 - real vnpay-vietnam-qr-pay-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.047334
+  ...
+# Subtest: vnpay-vietnam-qr-pay-01: a one-character change breaks the CRC
+ok 133 - vnpay-vietnam-qr-pay-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.068833
+  ...
+# Subtest: real other-vietnam-qr-pay-01: parses, CRC as recorded
+ok 134 - real other-vietnam-qr-pay-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.040542
+  ...
+# Subtest: other-vietnam-qr-pay-01: a one-character change breaks the CRC
+ok 135 - other-vietnam-qr-pay-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.055333
+  ...
+# Subtest: real other-vietnam-qr-pay-02: parses, CRC as recorded
+ok 136 - real other-vietnam-qr-pay-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.88975
+  ...
+# Subtest: other-vietnam-qr-pay-02: a one-character change breaks the CRC
+ok 137 - other-vietnam-qr-pay-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.083875
+  ...
+# Subtest: real vnpay-vietnam-qr-pay-02: parses, CRC as recorded
+ok 138 - real vnpay-vietnam-qr-pay-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.0455
+  ...
+# Subtest: vnpay-vietnam-qr-pay-02: a one-character change breaks the CRC
+ok 139 - vnpay-vietnam-qr-pay-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.05875
+  ...
+# Subtest: real vnpay-vietnam-qr-pay-03: parses, CRC as recorded
+ok 140 - real vnpay-vietnam-qr-pay-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.04025
+  ...
+# Subtest: vnpay-vietnam-qr-pay-03: a one-character change breaks the CRC
+ok 141 - vnpay-vietnam-qr-pay-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.059084
+  ...
+# Subtest: real vnpay-vietnam-qr-pay-04: parses, CRC as recorded
+ok 142 - real vnpay-vietnam-qr-pay-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.038792
+  ...
+# Subtest: vnpay-vietnam-qr-pay-04: a one-character change breaks the CRC
+ok 143 - vnpay-vietnam-qr-pay-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.056916
+  ...
+# Subtest: real vnpay-vietnam-qr-pay-05: parses, CRC as recorded
+ok 144 - real vnpay-vietnam-qr-pay-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.039375
+  ...
+# Subtest: real other-sgqr-parser-01: parses, CRC as recorded
+ok 145 - real other-sgqr-parser-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.05675
+  ...
+# Subtest: other-sgqr-parser-01: a one-character change breaks the CRC
+ok 146 - other-sgqr-parser-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.082
+  ...
+# Subtest: real paynow-sgqr-parser-01: parses, CRC as recorded
+ok 147 - real paynow-sgqr-parser-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.058958
+  ...
+# Subtest: paynow-sgqr-parser-01: a one-character change breaks the CRC
+ok 148 - paynow-sgqr-parser-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.06675
+  ...
+# Subtest: real qris-qris-editor-01: parses, CRC as recorded
+ok 149 - real qris-qris-editor-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.057959
+  ...
+# Subtest: qris-qris-editor-01: a one-character change breaks the CRC
+ok 150 - qris-qris-editor-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.071333
+  ...
+# Subtest: real qris-qris-editor-02: parses, CRC as recorded
+ok 151 - real qris-qris-editor-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.044583
+  ...
+# Subtest: real qris-qris-saurus-01: parses, CRC as recorded
+ok 152 - real qris-qris-saurus-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.052
+  ...
+# Subtest: qris-qris-saurus-01: a one-character change breaks the CRC
+ok 153 - qris-qris-saurus-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.074584
+  ...
+# Subtest: real qris-qris-saurus-02: parses, CRC as recorded
+ok 154 - real qris-qris-saurus-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.042083
+  ...
+# Subtest: qris-qris-saurus-02: a one-character change breaks the CRC
+ok 155 - qris-qris-saurus-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.068833
+  ...
+# Subtest: real qris-qris-saurus-03: parses, CRC as recorded
+ok 156 - real qris-qris-saurus-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.041792
+  ...
+# Subtest: qris-qris-saurus-03: a one-character change breaks the CRC
+ok 157 - qris-qris-saurus-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.048125
+  ...
+# Subtest: real qris-qris-go-01: parses, CRC as recorded
+ok 158 - real qris-qris-go-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.038125
+  ...
+# Subtest: real qris-qris-go-02: parses, CRC as recorded
+ok 159 - real qris-qris-go-02: parses, CRC as recorded
+  ---
+  duration_ms: 0.039791
+  ...
+# Subtest: qris-qris-go-02: a one-character change breaks the CRC
+ok 160 - qris-qris-go-02: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.056708
+  ...
+# Subtest: real qris-qris-go-03: parses, CRC as recorded
+ok 161 - real qris-qris-go-03: parses, CRC as recorded
+  ---
+  duration_ms: 0.038084
+  ...
+# Subtest: qris-qris-go-03: a one-character change breaks the CRC
+ok 162 - qris-qris-go-03: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.052291
+  ...
+# Subtest: real qris-qris-go-04: parses, CRC as recorded
+ok 163 - real qris-qris-go-04: parses, CRC as recorded
+  ---
+  duration_ms: 0.037583
+  ...
+# Subtest: qris-qris-go-04: a one-character change breaks the CRC
+ok 164 - qris-qris-go-04: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.067042
+  ...
+# Subtest: real qris-qris-go-05: parses, CRC as recorded
+ok 165 - real qris-qris-go-05: parses, CRC as recorded
+  ---
+  duration_ms: 0.038917
+  ...
+# Subtest: qris-qris-go-05: a one-character change breaks the CRC
+ok 166 - qris-qris-go-05: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.056834
+  ...
+# Subtest: real qris-qris-go-06: parses, CRC as recorded
+ok 167 - real qris-qris-go-06: parses, CRC as recorded
+  ---
+  duration_ms: 0.041875
+  ...
+# Subtest: qris-qris-go-06: a one-character change breaks the CRC
+ok 168 - qris-qris-go-06: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.065916
+  ...
+# Subtest: real qris-qris-go-07: parses, CRC as recorded
+ok 169 - real qris-qris-go-07: parses, CRC as recorded
+  ---
+  duration_ms: 0.051458
+  ...
+# Subtest: qris-qris-go-07: a one-character change breaks the CRC
+ok 170 - qris-qris-go-07: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.080167
+  ...
+# Subtest: real qris-go-qris-01: parses, CRC as recorded
+ok 171 - real qris-go-qris-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.054958
+  ...
+# Subtest: qris-go-qris-01: a one-character change breaks the CRC
+ok 172 - qris-go-qris-01: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.090959
+  ...
+# Subtest: real other-qris-generator-01: parses, CRC as recorded
+ok 173 - real other-qris-generator-01: parses, CRC as recorded
+  ---
+  duration_ms: 0.091167
+  ...
+# Subtest: real pix-commons-qrcode-pix-4: parses, CRC as recorded
+ok 174 - real pix-commons-qrcode-pix-4: parses, CRC as recorded
+  ---
+  duration_ms: 0.043125
+  ...
+# Subtest: pix-commons-qrcode-pix-4: a one-character change breaks the CRC
+ok 175 - pix-commons-qrcode-pix-4: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.067
+  ...
+# Subtest: real qris-commons-valfar-store: parses, CRC as recorded
+ok 176 - real qris-commons-valfar-store: parses, CRC as recorded
+  ---
+  duration_ms: 0.046708
+  ...
+# Subtest: qris-commons-valfar-store: a one-character change breaks the CRC
+ok 177 - qris-commons-valfar-store: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.080583
+  ...
+# Subtest: real qris-commons-qris-payment: parses, CRC as recorded
+ok 178 - real qris-commons-qris-payment: parses, CRC as recorded
+  ---
+  duration_ms: 0.050666
+  ...
+# Subtest: qris-commons-qris-payment: a one-character change breaks the CRC
+ok 179 - qris-commons-qris-payment: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.078375
+  ...
+# Subtest: real other-commons-sgqr-liho-tea: parses, CRC as recorded
+ok 180 - real other-commons-sgqr-liho-tea: parses, CRC as recorded
+  ---
+  duration_ms: 0.097333
+  ...
+# Subtest: other-commons-sgqr-liho-tea: a one-character change breaks the CRC
+ok 181 - other-commons-sgqr-liho-tea: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.137834
+  ...
+# Subtest: synthetic synthetic-vietqr-static-account: parses, CRC as recorded
+ok 182 - synthetic synthetic-vietqr-static-account: parses, CRC as recorded
+  ---
+  duration_ms: 0.044708
+  ...
+# Subtest: synthetic-vietqr-static-account: a one-character change breaks the CRC
+ok 183 - synthetic-vietqr-static-account: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.062042
+  ...
+# Subtest: synthetic synthetic-vietqr-dynamic-amount-purpose: parses, CRC as recorded
+ok 184 - synthetic synthetic-vietqr-dynamic-amount-purpose: parses, CRC as recorded
+  ---
+  duration_ms: 0.050459
+  ...
+# Subtest: synthetic-vietqr-dynamic-amount-purpose: a one-character change breaks the CRC
+ok 185 - synthetic-vietqr-dynamic-amount-purpose: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.07675
+  ...
+# Subtest: synthetic synthetic-vietqr-card: parses, CRC as recorded
+ok 186 - synthetic synthetic-vietqr-card: parses, CRC as recorded
+  ---
+  duration_ms: 0.04275
+  ...
+# Subtest: synthetic-vietqr-card: a one-character change breaks the CRC
+ok 187 - synthetic-vietqr-card: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.062667
+  ...
+# Subtest: synthetic synthetic-qris-static: parses, CRC as recorded
+ok 188 - synthetic synthetic-qris-static: parses, CRC as recorded
+  ---
+  duration_ms: 0.049542
+  ...
+# Subtest: synthetic-qris-static: a one-character change breaks the CRC
+ok 189 - synthetic-qris-static: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.076333
+  ...
+# Subtest: synthetic synthetic-qris-dynamic: parses, CRC as recorded
+ok 190 - synthetic synthetic-qris-dynamic: parses, CRC as recorded
+  ---
+  duration_ms: 0.056917
+  ...
+# Subtest: synthetic-qris-dynamic: a one-character change breaks the CRC
+ok 191 - synthetic-qris-dynamic: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.084875
+  ...
+# Subtest: synthetic synthetic-promptpay-mobile: parses, CRC as recorded
+ok 192 - synthetic synthetic-promptpay-mobile: parses, CRC as recorded
+  ---
+  duration_ms: 0.038042
+  ...
+# Subtest: synthetic-promptpay-mobile: a one-character change breaks the CRC
+ok 193 - synthetic-promptpay-mobile: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.066666
+  ...
+# Subtest: synthetic synthetic-promptpay-national-id-amount: parses, CRC as recorded
+ok 194 - synthetic synthetic-promptpay-national-id-amount: parses, CRC as recorded
+  ---
+  duration_ms: 0.037
+  ...
+# Subtest: synthetic-promptpay-national-id-amount: a one-character change breaks the CRC
+ok 195 - synthetic-promptpay-national-id-amount: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.057
+  ...
+# Subtest: synthetic synthetic-qrph-p2m: parses, CRC as recorded
+ok 196 - synthetic synthetic-qrph-p2m: parses, CRC as recorded
+  ---
+  duration_ms: 0.038833
+  ...
+# Subtest: synthetic-qrph-p2m: a one-character change breaks the CRC
+ok 197 - synthetic-qrph-p2m: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.055041
+  ...
+# Subtest: synthetic synthetic-qrph-p2m-amount: parses, CRC as recorded
+ok 198 - synthetic synthetic-qrph-p2m-amount: parses, CRC as recorded
+  ---
+  duration_ms: 0.041083
+  ...
+# Subtest: synthetic-qrph-p2m-amount: a one-character change breaks the CRC
+ok 199 - synthetic-qrph-p2m-amount: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.061916
+  ...
+# Subtest: synthetic synthetic-pix-static-email-key: parses, CRC as recorded
+ok 200 - synthetic synthetic-pix-static-email-key: parses, CRC as recorded
+  ---
+  duration_ms: 2.050208
+  ...
+# Subtest: synthetic-pix-static-email-key: a one-character change breaks the CRC
+ok 201 - synthetic-pix-static-email-key: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.068125
+  ...
+# Subtest: synthetic synthetic-pix-static-amount-txid: parses, CRC as recorded
+ok 202 - synthetic synthetic-pix-static-amount-txid: parses, CRC as recorded
+  ---
+  duration_ms: 0.048625
+  ...
+# Subtest: synthetic-pix-static-amount-txid: a one-character change breaks the CRC
+ok 203 - synthetic-pix-static-amount-txid: a one-character change breaks the CRC
+  ---
+  duration_ms: 0.085333
+  ...
+# Subtest: CRC-16/CCITT-FALSE check value for '123456789' is 0x29B1
+ok 204 - CRC-16/CCITT-FALSE check value for '123456789' is 0x29B1
+  ---
+  duration_ms: 0.683584
+  ...
+# Subtest: CRC hex is zero-padded to 4 characters
+ok 205 - CRC hex is zero-padded to 4 characters
+  ---
+  duration_ms: 0.067375
+  ...
+# Subtest: TLV decodes flat fields with offsets
+ok 206 - TLV decodes flat fields with offsets
+  ---
+  duration_ms: 0.472334
+  ...
+# Subtest: TLV length counts characters, not UTF-8 bytes
+ok 207 - TLV length counts characters, not UTF-8 bytes
+  ---
+  duration_ms: 0.081208
+  ...
+# Subtest: TLV round trip
+ok 208 - TLV round trip
+  ---
+  duration_ms: 0.641542
+  ...
+# Subtest: TLV errors name the problem
+ok 209 - TLV errors name the problem
+  ---
+  duration_ms: 0.169083
+  ...
+# Subtest: /Users/khatruong/Solana Startup/kelvin-oss/emvco-qr-to-wallet-pay/dist/test/fixtures.js
+ok 3 - /Users/khatruong/Solana Startup/kelvin-oss/emvco-qr-to-wallet-pay/dist/test/fixtures.js
+  ---
+  duration_ms: 41.2705
+  ...
+# Subtest: /Users/khatruong/Solana Startup/kelvin-oss/emvco-qr-to-wallet-pay/dist/test/helpers.js
+ok 4 - /Users/khatruong/Solana Startup/kelvin-oss/emvco-qr-to-wallet-pay/dist/test/helpers.js
+  ---
+  duration_ms: 45.479916
+  ...
+# Subtest: EMVCo spec example: CRC, language template, tip, additional data, unreserved template
+ok 212 - EMVCo spec example: CRC, language template, tip, additional data, unreserved template
+  ---
+  duration_ms: 2.566042
+  ...
+# Subtest: VietQR: NAPAS bank BIN, account and service from nested template 38
+ok 213 - VietQR: NAPAS bank BIN, account and service from nested template 38
+  ---
+  duration_ms: 0.396708
+  ...
+# Subtest: QRIS: acquirer template and national NMID
+ok 214 - QRIS: acquirer template and national NMID
+  ---
+  duration_ms: 0.277
+  ...
+# Subtest: PromptPay: mobile number normalised to E.164
+ok 215 - PromptPay: mobile number normalised to E.164
+  ---
+  duration_ms: 0.170209
+  ...
+# Subtest: Pix: key and txid
+ok 216 - Pix: key and txid
+  ---
+  duration_ms: 0.21675
+  ...
+# Subtest: GUID match is case-insensitive (Pix codes in the wild use BR.GOV.BCB.PIX)
+ok 217 - GUID match is case-insensitive (Pix codes in the wild use BR.GOV.BCB.PIX)
+  ---
+  duration_ms: 0.126416
+  ...
+# Subtest: CRC mismatch is reported, and thrown in strict mode
+ok 218 - CRC mismatch is reported, and thrown in strict mode
+  ---
+  duration_ms: 0.577125
+  ...
+# Subtest: Lowercase CRC is accepted with a warning
+ok 219 - Lowercase CRC is accepted with a warning
+  ---
+  duration_ms: 0.144875
+  ...
+# Subtest: Missing CRC and CRC not last are errors
+ok 220 - Missing CRC and CRC not last are errors
+  ---
+  duration_ms: 2.750708
+  ...
+# Subtest: Malformed input gives clear errors
+ok 221 - Malformed input gives clear errors
+  ---
+  duration_ms: 0.344333
+  ...
+# Subtest: Missing mandatory tags are listed as issues
+ok 222 - Missing mandatory tags are listed as issues
+  ---
+  duration_ms: 0.107167
+  ...
+# Subtest: Bad amount and bad currency are flagged
+ok 223 - Bad amount and bad currency are flagged
+  ---
+  duration_ms: 0.143333
+  ...
+# Subtest: Card network tags 02-25 are primitive and labelled
+ok 224 - Card network tags 02-25 are primitive and labelled
+  ---
+  duration_ms: 0.157
+  ...
+# Subtest: National template wins as primary scheme when a wallet template comes first
+ok 225 - National template wins as primary scheme when a wallet template comes first
+  ---
+  duration_ms: 0.250458
+  ...
+# Subtest: scan synthetic image synthetic-vietqr-static-account
+ok 226 - scan synthetic image synthetic-vietqr-static-account
+  ---
+  duration_ms: 39.557833
+  ...
+# Subtest: scan synthetic image synthetic-vietqr-dynamic-amount-purpose
+ok 227 - scan synthetic image synthetic-vietqr-dynamic-amount-purpose
+  ---
+  duration_ms: 15.639958
+  ...
+# Subtest: scan synthetic image synthetic-vietqr-card
+ok 228 - scan synthetic image synthetic-vietqr-card
+  ---
+  duration_ms: 12.536125
+  ...
+# Subtest: scan synthetic image synthetic-qris-static
+ok 229 - scan synthetic image synthetic-qris-static
+  ---
+  duration_ms: 9.445292
+  ...
+# Subtest: scan synthetic image synthetic-qris-dynamic
+ok 230 - scan synthetic image synthetic-qris-dynamic
+  ---
+  duration_ms: 10.399834
+  ...
+# Subtest: scan synthetic image synthetic-promptpay-mobile
+ok 231 - scan synthetic image synthetic-promptpay-mobile
+  ---
+  duration_ms: 6.927333
+  ...
+# Subtest: scan synthetic image synthetic-promptpay-national-id-amount
+ok 232 - scan synthetic image synthetic-promptpay-national-id-amount
+  ---
+  duration_ms: 6.513958
+  ...
+# Subtest: scan synthetic image synthetic-qrph-p2m
+ok 233 - scan synthetic image synthetic-qrph-p2m
+  ---
+  duration_ms: 5.366167
+  ...
+# Subtest: scan synthetic image synthetic-qrph-p2m-amount
+ok 234 - scan synthetic image synthetic-qrph-p2m-amount
+  ---
+  duration_ms: 6.415625
+  ...
+# Subtest: scan synthetic image synthetic-pix-static-email-key
+ok 235 - scan synthetic image synthetic-pix-static-email-key
+  ---
+  duration_ms: 6.381709
+  ...
+# Subtest: scan synthetic image synthetic-pix-static-amount-txid
+ok 236 - scan synthetic image synthetic-pix-static-amount-txid
+  ---
+  duration_ms: 8.151166
+  ...
+# Subtest: scan real image pix-commons-qrcode-pix-4
+ok 237 - scan real image pix-commons-qrcode-pix-4
+  ---
+  duration_ms: 13.108042
+  ...
+# Subtest: scan real image qris-commons-valfar-store
+ok 238 - scan real image qris-commons-valfar-store
+  ---
+  duration_ms: 280.079125
+  ...
+# Subtest: scan real image qris-commons-qris-payment
+ok 239 - scan real image qris-commons-qris-payment
+  ---
+  duration_ms: 71.541625
+  ...
+# Subtest: scan real image other-commons-sgqr-liho-tea
+ok 240 - scan real image other-commons-sgqr-liho-tea
+  ---
+  duration_ms: 911.532916
+  ...
+# Subtest: CAIP-358 request vector request-valid-spec-example
+ok 241 - CAIP-358 request vector request-valid-spec-example
+  ---
+  duration_ms: 1.020833
+  ...
+# Subtest: CAIP-358 request vector request-valid-single-option
+ok 242 - CAIP-358 request vector request-valid-single-option
+  ---
+  duration_ms: 0.063833
+  ...
+# Subtest: CAIP-358 request vector request-valid-extra-field
+ok 243 - CAIP-358 request vector request-valid-extra-field
+  ---
+  duration_ms: 0.052167
+  ...
+# Subtest: CAIP-358 request vector request-invalid-missing-version
+ok 244 - CAIP-358 request vector request-invalid-missing-version
+  ---
+  duration_ms: 0.0535
+  ...
+# Subtest: CAIP-358 request vector request-invalid-version-string
+ok 245 - CAIP-358 request vector request-invalid-version-string
+  ---
+  duration_ms: 0.05425
+  ...
+# Subtest: CAIP-358 request vector request-invalid-order-id-too-long
+ok 246 - CAIP-358 request vector request-invalid-order-id-too-long
+  ---
+  duration_ms: 0.044292
+  ...
+# Subtest: CAIP-358 request vector request-invalid-expiry-not-integer
+ok 247 - CAIP-358 request vector request-invalid-expiry-not-integer
+  ---
+  duration_ms: 0.044
+  ...
+# Subtest: CAIP-358 request vector request-invalid-expired
+ok 248 - CAIP-358 request vector request-invalid-expired
+  ---
+  duration_ms: 0.05075
+  ...
+# Subtest: CAIP-358 request vector request-invalid-empty-options
+ok 249 - CAIP-358 request vector request-invalid-empty-options
+  ---
+  duration_ms: 0.184875
+  ...
+# Subtest: CAIP-358 request vector request-invalid-amount-decimal
+ok 250 - CAIP-358 request vector request-invalid-amount-decimal
+  ---
+  duration_ms: 0.129583
+  ...
+# Subtest: CAIP-358 request vector request-invalid-asset-not-caip19
+ok 251 - CAIP-358 request vector request-invalid-asset-not-caip19
+  ---
+  duration_ms: 0.106667
+  ...
+# Subtest: CAIP-358 request vector request-invalid-unknown-type
+ok 252 - CAIP-358 request vector request-invalid-unknown-type
+  ---
+  duration_ms: 0.053334
+  ...
+# Subtest: CAIP-358 request vector request-invalid-empty-types
+ok 253 - CAIP-358 request vector request-invalid-empty-types
+  ---
+  duration_ms: 0.105
+  ...
+# Subtest: merchant QR mapping vector merchant-qr-napas-vietqr-03
+ok 254 - merchant QR mapping vector merchant-qr-napas-vietqr-03
+  ---
+  duration_ms: 1.070375
+  ...
+# Subtest: merchant QR mapping vector merchant-qr-qris-qris-saurus-02
+ok 255 - merchant QR mapping vector merchant-qr-qris-qris-saurus-02
+  ---
+  duration_ms: 0.321875
+  ...
+# Subtest: merchant QR mapping vector merchant-qr-promptpay-promptpay-qr-06
+ok 256 - merchant QR mapping vector merchant-qr-promptpay-promptpay-qr-06
+  ---
+  duration_ms: 0.216417
+  ...
+# Subtest: merchant QR mapping vector merchant-qr-qrph-qrph-01
+ok 257 - merchant QR mapping vector merchant-qr-qrph-qrph-01
+  ---
+  duration_ms: 0.177875
+  ...
+# Subtest: merchant QR mapping vector merchant-qr-pix-pix-brcode-02
+ok 258 - merchant QR mapping vector merchant-qr-pix-pix-brcode-02
+  ---
+  duration_ms: 0.357083
+  ...
+# Subtest: merchant QR mapping vector merchant-qr-emvco-spec-appendix-example
+ok 259 - merchant QR mapping vector merchant-qr-emvco-spec-appendix-example
+  ---
+  duration_ms: 1.236042
+  ...
+# Subtest: negative mapping vector merchant-qr-negative-crc-mismatch
+ok 260 - negative mapping vector merchant-qr-negative-crc-mismatch
+  ---
+  duration_ms: 0.454875
+  ...
+# Subtest: negative mapping vector merchant-qr-negative-static-no-amount
+ok 261 - negative mapping vector merchant-qr-negative-static-no-amount
+  ---
+  duration_ms: 0.167583
+  ...
+# Subtest: tokenUnitsFor uses exact integer math and rounds up
+ok 262 - tokenUnitsFor uses exact integer math and rounds up
+  ---
+  duration_ms: 0.730208
+  ...
+# Subtest: dynamic VietQR maps to a spec-shaped request; orderId comes from the bill number
+ok 263 - dynamic VietQR maps to a spec-shaped request; orderId comes from the bill number
+  ---
+  duration_ms: 2.142709
+  ...
+# Subtest: static QR needs the payer's amount
+ok 264 - static QR needs the payer's amount
+  ---
+  duration_ms: 1.143041
+  ...
+# Subtest: option validation
+ok 265 - option validation
+  ---
+  duration_ms: 0.404458
+  ...
+# Subtest: explicit quote amount is passed through as hex
+ok 266 - explicit quote amount is passed through as hex
+  ---
+  duration_ms: 0.176041
+  ...
+# Subtest: mapping snapshots for every CRC-valid sample
+ok 267 - mapping snapshots for every CRC-valid sample
+  ---
+  duration_ms: 10.245458
+  ...
+1..267
+# tests 267
+# suites 0
+# pass 267
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1534.051917

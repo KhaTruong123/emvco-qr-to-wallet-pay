@@ -1,0 +1,90 @@
+[
+  {
+    "id": "synthetic-vietqr-static-account",
+    "scheme": "napas",
+    "description": "VietQR static, transfer to account, no amount",
+    "payload": "00020101021138560010A0000007270126000697043601120000000000010208QRIBFTTA5204581253037045802VN5914SYNTHETIC CAFE6006HA NOI63041B37",
+    "synthetic": true,
+    "image": "images/synthetic-vietqr-static-account.png"
+  },
+  {
+    "id": "synthetic-vietqr-dynamic-amount-purpose",
+    "scheme": "napas",
+    "description": "VietQR dynamic, 150000 VND, purpose and bill number in tag 62",
+    "payload": "00020101021238560010A0000007270126000697042201120000000000020208QRIBFTTA52045812530370454061500005802VN5914SYNTHETIC SHOP6011HO CHI MINH62340818SYNTHETIC ORDER 420108INV-00426304C6E0",
+    "synthetic": true,
+    "image": "images/synthetic-vietqr-dynamic-amount-purpose.png"
+  },
+  {
+    "id": "synthetic-vietqr-card",
+    "scheme": "napas",
+    "description": "VietQR transfer to card (service QRIBFTTC)",
+    "payload": "00020101021138600010A00000072701300006970415011697041500000000030208QRIBFTTC5204581253037045802VN5914SYNTHETIC CARD6007DA NANG630402FA",
+    "synthetic": true,
+    "image": "images/synthetic-vietqr-card.png"
+  },
+  {
+    "id": "synthetic-qris-static",
+    "scheme": "qris",
+    "description": "QRIS static, acquirer template 26 and national template 51",
+    "payload": "00020101021126700017ID.CO.EXAMPLE.WWW0119936000000000000000102150000000000000010303UMI51440014ID.CO.QRIS.WWW0215ID10000000000010303UMI5204581453033605802ID5916SYNTHETIC WARUNG6007JAKARTA61051011063044EDC",
+    "synthetic": true,
+    "image": "images/synthetic-qris-static.png"
+  },
+  {
+    "id": "synthetic-qris-dynamic",
+    "scheme": "qris",
+    "description": "QRIS dynamic, 25000 IDR, bill number and terminal label",
+    "payload": "00020101021226700017ID.CO.EXAMPLE.WWW0119936000000000000000202150000000000000020303UKE51440014ID.CO.QRIS.WWW0215ID10000000000020303UKE5204581453033605405250005802ID5914SYNTHETIC TOKO6007BANDUNG61054011162170106BILL-70703T016304AB8F",
+    "synthetic": true,
+    "image": "images/synthetic-qris-dynamic.png"
+  },
+  {
+    "id": "synthetic-promptpay-mobile",
+    "scheme": "promptpay",
+    "description": "PromptPay static to mobile number",
+    "payload": "00020101021129370016A000000677010111011300668000000015204000053037645802TH5916SYNTHETIC SOMTAM6007BANGKOK630425BA",
+    "synthetic": true,
+    "image": "images/synthetic-promptpay-mobile.png"
+  },
+  {
+    "id": "synthetic-promptpay-national-id-amount",
+    "scheme": "promptpay",
+    "description": "PromptPay dynamic to 13-digit ID, 120.50 THB",
+    "payload": "00020101021229370016A000000677010111021300000000000015204000053037645406120.505802TH5916SYNTHETIC MARKET6010CHIANG MAI63049CFF",
+    "synthetic": true,
+    "image": "images/synthetic-promptpay-national-id-amount.png"
+  },
+  {
+    "id": "synthetic-qrph-p2m",
+    "scheme": "qrph",
+    "description": "QR Ph person-to-merchant, static",
+    "payload": "00020101021128460011ph.ppmi.p2m0111EXAMPHM1XXX03120000000000015204541153036085802PH5919SYNTHETIC SARI-SARI6006MANILA63045E82",
+    "synthetic": true,
+    "image": "images/synthetic-qrph-p2m.png"
+  },
+  {
+    "id": "synthetic-qrph-p2m-amount",
+    "scheme": "qrph",
+    "description": "QR Ph person-to-merchant, dynamic 350.00 PHP with reference label",
+    "payload": "00020101021228460011ph.ppmi.p2m0111EXAMPHM1XXX03120000000000025204541153036085406350.005802PH5920SYNTHETIC CARINDERIA6004CEBU62120508REF-00016304F171",
+    "synthetic": true,
+    "image": "images/synthetic-qrph-p2m-amount.png"
+  },
+  {
+    "id": "synthetic-pix-static-email-key",
+    "scheme": "pix",
+    "description": "Pix static, email key, no amount",
+    "payload": "00020126430014br.gov.bcb.pix0121synthetic@example.com5204000053039865802BR5914SYNTHETIC LOJA6009SAO PAULO62070503***6304E390",
+    "synthetic": true,
+    "image": "images/synthetic-pix-static-email-key.png"
+  },
+  {
+    "id": "synthetic-pix-static-amount-txid",
+    "scheme": "pix",
+    "description": "Pix static with amount, description and txid",
+    "payload": "00020126780014br.gov.bcb.pix0136123e4567-e89b-12d3-a456-4266141740000216SYNTHETIC PEDIDO520400005303986540510.005802BR5917SYNTHETIC PADARIA6008BRASILIA62130509SYNTH0001630494A3",
+    "synthetic": true,
+    "image": "images/synthetic-pix-static-amount-txid.png"
+  }
+]
