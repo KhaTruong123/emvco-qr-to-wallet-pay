@@ -1,0 +1,653 @@
+{
+  "generatedBy": "scripts/generate-vectors.ts",
+  "spec": "CAIP-358 at ChainAgnostic/CAIPs commit 23446e7",
+  "requestVectors": [
+    {
+      "id": "request-valid-spec-example",
+      "description": "Example request from the CAIP-358 text (comma restored)",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "eip155:1/erc20:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "amount": "0x5F5E100",
+            "recipient": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+            "types": [
+              "erc3009-authorization"
+            ]
+          },
+          {
+            "asset": "eip155:1/erc20:0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+            "amount": "0x56BC75E2D63100000",
+            "recipient": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+            "types": [
+              "erc20-transfer",
+              "erc20-approve",
+              "erc2612-permit"
+            ]
+          },
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          },
+          {
+            "asset": "eip155:1/slip44:60",
+            "amount": "0x58D15E17628000",
+            "recipient": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+            "types": [
+              "native-transfer"
+            ]
+          },
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/slip44:501",
+            "amount": "0x1DCD6500",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "native-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "request-valid-single-option",
+      "description": "One SPL transfer option",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "request-valid-extra-field",
+      "description": "Unknown extra field at params level is ignored",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm"
+        }
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "request-invalid-missing-version",
+      "description": "version is REQUIRED",
+      "params": {
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "version is required"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-version-string",
+      "description": "version is an integer, not a string",
+      "params": {
+        "version": "1",
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "version must be an integer"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-order-id-too-long",
+      "description": "orderId MUST NOT be longer than 128 characters",
+      "params": {
+        "version": 1,
+        "orderId": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "orderId must not be longer than 128 characters"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-expiry-not-integer",
+      "description": "expiry is a UNIX timestamp in seconds",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389.5,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "expiry must be an integer UNIX timestamp in seconds"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-expired",
+      "description": "expiry before the wallet's current time (now = 1740672089 + 301)",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672390,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "expiry is in the past"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-empty-options",
+      "description": "paymentOptions needs at least one entry",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": []
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "paymentOptions must be an array with at least one entry"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-amount-decimal",
+      "description": "amount is a hex string in smallest units",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "100000000",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "paymentOptions[0].amount must be a 0x-prefixed hex string"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-asset-not-caip19",
+      "description": "asset follows CAIP-19",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "USDC",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "paymentOptions[0].asset must be a CAIP-19 asset ID"
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-unknown-type",
+      "description": "types come from the exclusive version 1 list",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer",
+              "bank-transfer"
+            ]
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "paymentOptions[0].types has unknown transfer type \"bank-transfer\""
+        ]
+      }
+    },
+    {
+      "id": "request-invalid-empty-types",
+      "description": "types is a non-empty array",
+      "params": {
+        "version": 1,
+        "orderId": "643f31f2-67cd-4172-83cf-3176e8443ab8",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5F5E100",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": []
+          }
+        ]
+      },
+      "now": 1740672089,
+      "expected": {
+        "valid": false,
+        "errors": [
+          "paymentOptions[0].types must be a non-empty array"
+        ]
+      }
+    }
+  ],
+  "mappingVectors": [
+    {
+      "id": "merchant-qr-napas-vietqr-03",
+      "origin": "real",
+      "sourceUrl": "https://github.com/openhoangnc/vietqr/blob/25b2bfbc7b04bf36e2a25c169c3245641a10a787/libs/test-data.json#L21",
+      "qr": "00020101021138540010A00000072701240006963388011034567891430208QRIBFTTA5303704540723451235802VN6304EBDA",
+      "input": {
+        "fiatPerToken": "26000",
+        "tokenDecimals": 6,
+        "now": 1740672089,
+        "orderId": "order-napas-vietqr-03"
+      },
+      "expected": {
+        "version": 1,
+        "orderId": "order-napas-vietqr-03",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x5604C2F",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm",
+          "scheme": "napas",
+          "payload": "00020101021138540010A00000072701240006963388011034567891430208QRIBFTTA5303704540723451235802VN6304EBDA",
+          "pointOfInitiation": "static",
+          "fiat": {
+            "amount": "2345123",
+            "currency": "VND",
+            "currencyNumeric": "704",
+            "amountSource": "qr"
+          },
+          "merchant": {
+            "countryCode": "VN"
+          }
+        }
+      }
+    },
+    {
+      "id": "merchant-qr-qris-qris-saurus-02",
+      "origin": "real",
+      "sourceUrl": "https://github.com/creasico/qris-saurus/blob/e4b8db524d5e2e89d8e6bd0fa1148170096d720a/README.md#L900",
+      "qr": "00020101021226360014ID.CO.QRIS.WWW0114GENERICSTORE01520458125303360540825000.005802ID5911QRIS SAURUS6007JAKARTA62200507INV-0010705POS-A6304391F",
+      "input": {
+        "fiatPerToken": "16500",
+        "tokenDecimals": 6,
+        "now": 1740672089,
+        "orderId": "order-qris-qris-saurus-02"
+      },
+      "expected": {
+        "version": 1,
+        "orderId": "order-qris-qris-saurus-02",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x171E90",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm",
+          "scheme": "qris",
+          "payload": "00020101021226360014ID.CO.QRIS.WWW0114GENERICSTORE01520458125303360540825000.005802ID5911QRIS SAURUS6007JAKARTA62200507INV-0010705POS-A6304391F",
+          "pointOfInitiation": "dynamic",
+          "fiat": {
+            "amount": "25000.00",
+            "currency": "IDR",
+            "currencyNumeric": "360",
+            "amountSource": "qr"
+          },
+          "merchant": {
+            "name": "QRIS SAURUS",
+            "city": "JAKARTA",
+            "countryCode": "ID",
+            "categoryCode": "5812"
+          },
+          "reference": {
+            "referenceLabel": "INV-001"
+          }
+        }
+      }
+    },
+    {
+      "id": "merchant-qr-promptpay-promptpay-qr-06",
+      "origin": "real",
+      "sourceUrl": "https://github.com/dtinth/promptpay-qr/blob/a9e4f2d13fe188b195630e49b72b1009961f41ac/index.test.js#L78",
+      "qr": "00020101021229370016A000000677010111011300660000000005802TH530376454044.226304E469",
+      "input": {
+        "fiatPerToken": "33.5",
+        "tokenDecimals": 6,
+        "now": 1740672089,
+        "orderId": "order-promptpay-promptpay-qr-06"
+      },
+      "expected": {
+        "version": 1,
+        "orderId": "order-promptpay-promptpay-qr-06",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x1EC13",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm",
+          "scheme": "promptpay",
+          "payload": "00020101021229370016A000000677010111011300660000000005802TH530376454044.226304E469",
+          "pointOfInitiation": "dynamic",
+          "fiat": {
+            "amount": "4.22",
+            "currency": "THB",
+            "currencyNumeric": "764",
+            "amountSource": "qr"
+          },
+          "merchant": {
+            "countryCode": "TH"
+          }
+        }
+      }
+    },
+    {
+      "id": "merchant-qr-qrph-qrph-01",
+      "origin": "real",
+      "sourceUrl": "https://github.com/qrph/qrph/blob/9f6f5a3d2d65867c725b62ee0d2f428e6db1f4c5/packages/qrph/src/decodeQRPH.test.ts#L9",
+      "qr": "00020101021128620011ph.ppmi.p2m0111GXCHPHM2XXX032121702000000060243306005030005204581253036085802PH5908Gong Cha60037626104122462660012ph.ppmi.qrph0309GCRD0000105212170500000670039620680708GEN0000863049B84",
+      "input": {
+        "fiatPerToken": "58.2",
+        "tokenDecimals": 6,
+        "payerAmount": "120",
+        "now": 1740672089,
+        "orderId": "order-qrph-qrph-01"
+      },
+      "expected": {
+        "version": 1,
+        "orderId": "order-qrph-qrph-01",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x1F7620",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm",
+          "scheme": "qrph",
+          "payload": "00020101021128620011ph.ppmi.p2m0111GXCHPHM2XXX032121702000000060243306005030005204581253036085802PH5908Gong Cha60037626104122462660012ph.ppmi.qrph0309GCRD0000105212170500000670039620680708GEN0000863049B84",
+          "pointOfInitiation": "static",
+          "fiat": {
+            "amount": "120",
+            "currency": "PHP",
+            "currencyNumeric": "608",
+            "amountSource": "payer"
+          },
+          "merchant": {
+            "name": "Gong Cha",
+            "city": "762",
+            "countryCode": "PH",
+            "categoryCode": "5812"
+          },
+          "reference": {
+            "referenceLabel": "217050000067003962068"
+          }
+        }
+      }
+    },
+    {
+      "id": "merchant-qr-pix-pix-brcode-02",
+      "origin": "real",
+      "sourceUrl": "https://github.com/igorgbr/pix_brcode/blob/13681abe9a97b6d21bf4c821f6ce7c72da0ec32a/test/pix_brcode_test.exs#L226",
+      "qr": "00020126580014BR.GOV.BCB.PIX0136123e4567-e89b-12d3-a456-42661417400052040000530398654040.015802BR592412.345.678 FULANO DE TAL6009SAO PAULO61080100100062250521AB12cDEFgHiJklmNOp3qr63046B57",
+      "input": {
+        "fiatPerToken": "5.6",
+        "tokenDecimals": 6,
+        "now": 1740672089,
+        "orderId": "order-pix-pix-brcode-02"
+      },
+      "expected": {
+        "version": 1,
+        "orderId": "order-pix-pix-brcode-02",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x6FA",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm",
+          "scheme": "pix",
+          "payload": "00020126580014BR.GOV.BCB.PIX0136123e4567-e89b-12d3-a456-42661417400052040000530398654040.015802BR592412.345.678 FULANO DE TAL6009SAO PAULO61080100100062250521AB12cDEFgHiJklmNOp3qr63046B57",
+          "fiat": {
+            "amount": "0.01",
+            "currency": "BRL",
+            "currencyNumeric": "986",
+            "amountSource": "qr"
+          },
+          "merchant": {
+            "name": "12.345.678 FULANO DE TAL",
+            "city": "SAO PAULO",
+            "countryCode": "BR",
+            "categoryCode": "0000"
+          },
+          "reference": {
+            "referenceLabel": "AB12cDEFgHiJklmNOp3qr"
+          }
+        }
+      }
+    },
+    {
+      "id": "merchant-qr-emvco-spec-appendix-example",
+      "origin": "real",
+      "sourceUrl": "https://www.emvco.com/specifications/emv-qr-code-specification-for-payment-systems-emv-qrcps-merchant-presented-mode/",
+      "qr": "00020101021229300012D156000000000510A93FO3230Q31280012D15600000001030812345678520441115802CN5914BEST TRANSPORT6007BEIJING64200002ZH0104最佳运输0202北京540523.7253031565502016233030412340603***0708A60086670902ME91320016A0112233449988770708123456786304A13A",
+      "input": {
+        "fiatPerToken": "7.2",
+        "tokenDecimals": 6,
+        "now": 1740672089,
+        "orderId": "order-emvco-spec-appendix-example"
+      },
+      "expected": {
+        "version": 1,
+        "orderId": "order-emvco-spec-appendix-example",
+        "expiry": 1740672389,
+        "paymentOptions": [
+          {
+            "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": "0x3244ED",
+            "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            "types": [
+              "spl-transfer"
+            ]
+          }
+        ],
+        "merchantQr": {
+          "format": "emvco-mpm",
+          "scheme": "unknown",
+          "payload": "00020101021229300012D156000000000510A93FO3230Q31280012D15600000001030812345678520441115802CN5914BEST TRANSPORT6007BEIJING64200002ZH0104最佳运输0202北京540523.7253031565502016233030412340603***0708A60086670902ME91320016A0112233449988770708123456786304A13A",
+          "pointOfInitiation": "dynamic",
+          "fiat": {
+            "amount": "23.72",
+            "currency": "CNY",
+            "currencyNumeric": "156",
+            "amountSource": "qr"
+          },
+          "merchant": {
+            "name": "BEST TRANSPORT",
+            "city": "BEIJING",
+            "countryCode": "CN",
+            "categoryCode": "4111"
+          }
+        }
+      }
+    }
+  ],
+  "negativeMappingVectors": [
+    {
+      "id": "merchant-qr-negative-crc-mismatch",
+      "description": "Amount edited after the CRC was computed. No request may be built.",
+      "qr": "00020101021238560010A0000007270126000697042201120000000000020208QRIBFTTA52045812530370454067500005802VN5914SYNTHETIC SHOP6011HO CHI MINH62340818SYNTHETIC ORDER 420108INV-00426304C6E0",
+      "expectedError": "CRC_MISMATCH"
+    },
+    {
+      "id": "merchant-qr-negative-static-no-amount",
+      "description": "Static QR and no payer amount. No request may be built.",
+      "qr": "00020101021138560010A0000007270126000697043601120000000000010208QRIBFTTA5204581253037045802VN5914SYNTHETIC CAFE6006HA NOI63041B37",
+      "expectedError": "AMOUNT_REQUIRED"
+    }
+  ]
+}
