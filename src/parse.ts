@@ -253,15 +253,18 @@ function checkCrc(payload: string, fields: TlvField[], issues: Issue[]): CrcChec
   const chars = Array.from(payload);
   const signed = chars.slice(0, crcField.start + 4).join("");
   const computed = crc16Hex(signed);
-  if (fields[fields.length - 1] !== crcField) {
+  // Data after tag 63 is not covered by the CRC, so such a payload never counts as valid.
+  const isLast = fields[fields.length - 1] === crcField;
+  if (!isLast) {
     issues.push({ level: "error", code: "CRC_NOT_LAST", message: "Tag 63 (CRC) must be the last field", tag: "63" });
   }
   if (crcField.length !== 4) {
     issues.push({ level: "error", code: "CRC_MISMATCH", message: `Tag 63 must have length 04, got ${crcField.length}`, tag: "63" });
     return { present: true, value: crcField.value, computed, valid: false };
   }
-  const valid = crcField.value.toUpperCase() === computed;
-  if (!valid) {
+  const matches = crcField.value.toUpperCase() === computed;
+  const valid = matches && isLast;
+  if (!matches) {
     issues.push({ level: "error", code: "CRC_MISMATCH", message: `CRC mismatch: payload says ${crcField.value}, computed ${computed}`, tag: "63" });
   } else if (crcField.value !== computed) {
     issues.push({ level: "warning", code: "CRC_LOWERCASE", message: "CRC is valid but written in lowercase hex", tag: "63" });
