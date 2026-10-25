@@ -1,0 +1,1542 @@
+{
+  "payloads": [
+    {
+      "id": "other-emvco-spec-appendix-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-pix-brcode-01",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "promptpay-promptpay-qr-01",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-qr-02",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-qr-03",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-qr-04",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-qr-05",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-qr-06",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "pix-pix-brcode-02",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-pix-brcode-03",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "promptpay-promptpay-01",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-02",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-03",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-04",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-05",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-06",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-07",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-08",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-09",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-10",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptpay-11",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "qris-qris-parser-01",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "other-qris-parser-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:53",
+        "error:MISSING_FIELD:58",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "other-qris-parser-02",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "error:MISSING_FIELD",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:53",
+        "error:MISSING_FIELD:58",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-php-promptpay-qr-01",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-php-promptpay-qr-02",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-php-promptpay-qr-03",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-01",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-02",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-03",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-04",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-05",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-06",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "warning:BAD_TEMPLATE:81",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-07",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-08",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-09",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "other-emvco-qr-sdk-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "warning:UNKNOWN_CURRENCY:53"
+      ]
+    },
+    {
+      "id": "other-emvco-qr-sdk-02",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "warning:UNKNOWN_CURRENCY:53"
+      ]
+    },
+    {
+      "id": "other-emvco-qr-sdk-03",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "warning:UNKNOWN_CURRENCY:53"
+      ]
+    },
+    {
+      "id": "khqr-khqr-sdk-01",
+      "origin": "real",
+      "expectedScheme": "khqr",
+      "detectedScheme": "khqr",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "khqr-khqr-sdk-02",
+      "origin": "real",
+      "expectedScheme": "khqr",
+      "detectedScheme": "khqr",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "napas-vietqr-01",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "napas-vietqr-02",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "napas-vietqr-03",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "napas-vietqr-04",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "pix-ex-pix-brcode-01",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-ex-pix-brcode-02",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-ex-pix-brcode-03",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-ex-pix-brcode-04",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-ex-pix-brcode-05",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-01",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-02",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-03",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-04",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-05",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-06",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-07",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-08",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-09",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-10",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-11",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-12",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qrph-qrph-13",
+      "origin": "real",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63"
+      ]
+    },
+    {
+      "id": "napas-vietqr-05",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-rs-01",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "promptpay-promptparse-rs-02",
+      "origin": "real",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "other-promptparse-rs-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD",
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:58",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "napas-napas-qr-01",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "napas-vietnam-qr-pay-01",
+      "origin": "real",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:59",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "vnpay-vietnam-qr-pay-01",
+      "origin": "real",
+      "expectedScheme": "vnpay",
+      "detectedScheme": "vnpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "other-vietnam-qr-pay-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "other-vietnam-qr-pay-02",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "vnpay-vietnam-qr-pay-02",
+      "origin": "real",
+      "expectedScheme": "vnpay",
+      "detectedScheme": "vnpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "error:MISSING_FIELD:52",
+        "error:MISSING_FIELD:60"
+      ]
+    },
+    {
+      "id": "vnpay-vietnam-qr-pay-03",
+      "origin": "real",
+      "expectedScheme": "vnpay",
+      "detectedScheme": "vnpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "vnpay-vietnam-qr-pay-04",
+      "origin": "real",
+      "expectedScheme": "vnpay",
+      "detectedScheme": "vnpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "vnpay-vietnam-qr-pay-05",
+      "origin": "real",
+      "expectedScheme": "vnpay",
+      "detectedScheme": "vnpay",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63"
+      ]
+    },
+    {
+      "id": "other-sgqr-parser-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "paynow-sgqr-parser-01",
+      "origin": "real",
+      "expectedScheme": "paynow",
+      "detectedScheme": "paynow",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-editor-01",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-editor-02",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63"
+      ]
+    },
+    {
+      "id": "qris-qris-saurus-01",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-saurus-02",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-saurus-03",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-go-01",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63"
+      ]
+    },
+    {
+      "id": "qris-qris-go-02",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-go-03",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-go-04",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-go-05",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-go-06",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-qris-go-07",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-go-qris-01",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "other-qris-generator-01",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": false,
+      "crcExpected": false,
+      "matchesExpectation": true,
+      "issues": [
+        "error:CRC_MISMATCH:63",
+        "error:MISSING_FIELD"
+      ]
+    },
+    {
+      "id": "qris-commons-dikaa-payment",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "pix-commons-qrcode-pix-4",
+      "origin": "real",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-commons-valfar-store",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "qris-commons-qris-payment",
+      "origin": "real",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "other-commons-sgqr-liho-tea",
+      "origin": "real",
+      "expectedScheme": "other",
+      "detectedScheme": "unknown",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": [
+        "warning:BAD_TEMPLATE:26"
+      ]
+    },
+    {
+      "id": "synthetic-vietqr-static-account",
+      "origin": "synthetic",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-vietqr-dynamic-amount-purpose",
+      "origin": "synthetic",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-vietqr-card",
+      "origin": "synthetic",
+      "expectedScheme": "napas",
+      "detectedScheme": "napas",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-qris-static",
+      "origin": "synthetic",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-qris-dynamic",
+      "origin": "synthetic",
+      "expectedScheme": "qris",
+      "detectedScheme": "qris",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-promptpay-mobile",
+      "origin": "synthetic",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-promptpay-national-id-amount",
+      "origin": "synthetic",
+      "expectedScheme": "promptpay",
+      "detectedScheme": "promptpay",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-qrph-p2m",
+      "origin": "synthetic",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-qrph-p2m-amount",
+      "origin": "synthetic",
+      "expectedScheme": "qrph",
+      "detectedScheme": "qrph",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-pix-static-email-key",
+      "origin": "synthetic",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    },
+    {
+      "id": "synthetic-pix-static-amount-txid",
+      "origin": "synthetic",
+      "expectedScheme": "pix",
+      "detectedScheme": "pix",
+      "parsed": true,
+      "crcValid": true,
+      "crcExpected": true,
+      "matchesExpectation": true,
+      "issues": []
+    }
+  ],
+  "images": [
+    {
+      "id": "qris-commons-dikaa-payment",
+      "origin": "real",
+      "scheme": "qris",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "pix-commons-qrcode-pix-4",
+      "origin": "real",
+      "scheme": "pix",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "qris-commons-valfar-store",
+      "origin": "real",
+      "scheme": "qris",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "qris-commons-qris-payment",
+      "origin": "real",
+      "scheme": "qris",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "other-commons-sgqr-liho-tea",
+      "origin": "real",
+      "scheme": "other",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-vietqr-static-account",
+      "origin": "synthetic",
+      "scheme": "napas",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-vietqr-dynamic-amount-purpose",
+      "origin": "synthetic",
+      "scheme": "napas",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-vietqr-card",
+      "origin": "synthetic",
+      "scheme": "napas",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-qris-static",
+      "origin": "synthetic",
+      "scheme": "qris",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-qris-dynamic",
+      "origin": "synthetic",
+      "scheme": "qris",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-promptpay-mobile",
+      "origin": "synthetic",
+      "scheme": "promptpay",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-promptpay-national-id-amount",
+      "origin": "synthetic",
+      "scheme": "promptpay",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-qrph-p2m",
+      "origin": "synthetic",
+      "scheme": "qrph",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-qrph-p2m-amount",
+      "origin": "synthetic",
+      "scheme": "qrph",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-pix-static-email-key",
+      "origin": "synthetic",
+      "scheme": "pix",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    },
+    {
+      "id": "synthetic-pix-static-amount-txid",
+      "origin": "synthetic",
+      "scheme": "pix",
+      "decoded": true,
+      "parsed": true,
+      "crcValid": true,
+      "matchesExpected": true
+    }
+  ]
+}
