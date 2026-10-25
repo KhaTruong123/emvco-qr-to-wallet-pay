@@ -5,7 +5,7 @@
     "payload": "00020101021229300012D156000000000510A93FO3230Q31280012D15600000001030812345678520441115802CN5914BEST TRANSPORT6007BEIJING64200002ZH0104最佳运输0202北京540523.7253031565502016233030412340603***0708A60086670902ME91320016A0112233449988770708123456786304A13A",
     "sourceUrl": "https://www.emvco.com/emv-technologies/qr-codes/",
     "sourceTitle": "EMV QR Code Specification for Payment Systems, Merchant-Presented Mode v1.1, example payload",
-    "licence": "Official specification example, reproduced as a test vector under EMVCo terms of use",
+    "licence": "Short quotation from the publicly downloadable EMVCo specification (one example payload), used only for interoperability testing. Not covered by this repository's MIT licence. Use is subject to EMVCo's terms of use.",
     "licenceUrl": "https://www.emvco.com/terms-of-use/",
     "retrievedAt": "2026-10-25",
     "crcValid": true,
@@ -1306,19 +1306,6 @@
     "retrievedAt": "2026-10-25",
     "crcValid": false,
     "notes": "CRC is wrong at the source. Kept as a negative test vector.",
-    "alsoSeenAt": []
-  },
-  {
-    "id": "qris-commons-dikaa-payment",
-    "scheme": "qris",
-    "payload": "00020101021126570011ID.DANA.WWW011893600915397417338402099741733840303UMI51440014ID.CO.QRIS.WWW0215ID10254252615550303UMI5204594553033605802ID5914dikaa payyment6010Kota Medan6105201116304E377",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qr_ID1025425261555_25.12.25_176666356_1766663564110.jpg",
-    "sourceTitle": "Wikimedia Commons photo, decoded with the scan CLI",
-    "licence": "CC BY 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-    "retrievedAt": "2026-10-25",
-    "crcValid": true,
-    "notes": "Author: Dikaakajwkwhwbshaiao. Image: samples/real/images/qris-commons-dikaa-payment.jpg",
     "alsoSeenAt": []
   },
   {

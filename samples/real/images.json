@@ -1,16 +1,5 @@
 [
   {
-    "id": "qris-commons-dikaa-payment",
-    "file": "images/qris-commons-dikaa-payment.jpg",
-    "scheme": "qris",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qr_ID1025425261555_25.12.25_176666356_1766663564110.jpg",
-    "author": "Dikaakajwkwhwbshaiao",
-    "licence": "CC BY 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-    "notes": "",
-    "expectedPayload": "00020101021126570011ID.DANA.WWW011893600915397417338402099741733840303UMI51440014ID.CO.QRIS.WWW0215ID10254252615550303UMI5204594553033605802ID5914dikaa payyment6010Kota Medan6105201116304E377"
-  },
-  {
     "id": "pix-commons-qrcode-pix-4",
     "file": "images/pix-commons-qrcode-pix-4.png",
     "scheme": "pix",

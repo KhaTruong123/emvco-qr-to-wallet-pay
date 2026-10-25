@@ -1215,17 +1215,6 @@
       ]
     },
     {
-      "id": "qris-commons-dikaa-payment",
-      "origin": "real",
-      "expectedScheme": "qris",
-      "detectedScheme": "qris",
-      "parsed": true,
-      "crcValid": true,
-      "crcExpected": true,
-      "matchesExpectation": true,
-      "issues": []
-    },
-    {
       "id": "pix-commons-qrcode-pix-4",
       "origin": "real",
       "expectedScheme": "pix",
@@ -1394,15 +1383,6 @@
     }
   ],
   "images": [
-    {
-      "id": "qris-commons-dikaa-payment",
-      "origin": "real",
-      "scheme": "qris",
-      "decoded": true,
-      "parsed": true,
-      "crcValid": true,
-      "matchesExpected": true
-    },
     {
       "id": "pix-commons-qrcode-pix-4",
       "origin": "real",

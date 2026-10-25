@@ -21,10 +21,10 @@ Every real sample in `samples/real/` comes from a public source. This file lists
 | paynow | 1 |
 | pix | 9 |
 | promptpay | 31 |
-| qris | 17 |
+| qris | 16 |
 | qrph | 13 |
 | vnpay | 5 |
-| **total** | **97** |
+| **total** | **96** |
 
 `other` holds EMVCo payloads from rails without a dedicated scheme label here (SGQR NETS, ShopeePay Vietnam, a Vietnamese utility biller, Colombia) plus edge cases with missing mandatory tags.
 
@@ -61,7 +61,7 @@ Each payload's exact file and line is in the `sourceUrl` field of `payloads.json
 
 | Sample | Source | Terms |
 |---|---|---|
-| `other-emvco-spec-appendix-01` | [EMV QR Code Specification for Payment Systems, Merchant-Presented Mode v1.1, example payload](https://www.emvco.com/emv-technologies/qr-codes/) | Official specification example, reproduced as a test vector under EMVCo terms of use |
+| `other-emvco-spec-appendix-01` | [EMV QR Code Specification for Payment Systems, Merchant-Presented Mode v1.1, example payload](https://www.emvco.com/emv-technologies/qr-codes/) | Short quotation from the publicly downloadable EMVCo specification (one example payload), used only for interoperability testing. Not covered by this repository's MIT licence. Use is subject to EMVCo's terms of use. [EMVCo terms of use](https://www.emvco.com/terms-of-use/) |
 
 ## Photos (Wikimedia Commons)
 
@@ -69,7 +69,6 @@ Decoded with `emvco-qr scan`. The decoded payload is in `images.json` (`expected
 
 | File | Source | Author | Licence | Notes |
 |---|---|---|---|---|
-| `images/qris-commons-dikaa-payment.jpg` | [Commons page](https://commons.wikimedia.org/wiki/File:Qr_ID1025425261555_25.12.25_176666356_1766663564110.jpg) | Dikaakajwkwhwbshaiao | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |  |
 | `images/pix-commons-qrcode-pix-4.png` | [Commons page](https://commons.wikimedia.org/wiki/File:Qrcode-pix_(4).png) | Alvineokwokq1o2k2 | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |  |
 | `images/qris-commons-valfar-store.png` | [Commons page](https://commons.wikimedia.org/wiki/File:Qris_allpay.png) | K1NK VALFAR | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |  |
 | `images/qris-commons-qris-payment.jpg` | [Commons page](https://commons.wikimedia.org/wiki/File:Qris_payment.jpg) | Pian2011 | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |  |

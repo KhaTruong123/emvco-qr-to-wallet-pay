@@ -3275,48 +3275,6 @@
       }
     }
   },
-  "qris-commons-dikaa-payment": {
-    "version": 1,
-    "orderId": "order-qris-commons-dikaa-payment",
-    "expiry": 1761350700,
-    "paymentOptions": [
-      {
-        "asset": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ/spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-        "amount": "0xDDF23",
-        "recipient": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
-        "types": [
-          "spl-transfer"
-        ]
-      },
-      {
-        "asset": "eip155:1/erc20:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "amount": "0xDDF23",
-        "recipient": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
-        "types": [
-          "erc3009-authorization",
-          "erc20-transfer"
-        ]
-      }
-    ],
-    "merchantQr": {
-      "format": "emvco-mpm",
-      "scheme": "qris",
-      "payload": "00020101021126570011ID.DANA.WWW011893600915397417338402099741733840303UMI51440014ID.CO.QRIS.WWW0215ID10254252615550303UMI5204594553033605802ID5914dikaa payyment6010Kota Medan6105201116304E377",
-      "pointOfInitiation": "static",
-      "fiat": {
-        "amount": "15000",
-        "currency": "IDR",
-        "currencyNumeric": "360",
-        "amountSource": "payer"
-      },
-      "merchant": {
-        "name": "dikaa payyment",
-        "city": "Kota Medan",
-        "countryCode": "ID",
-        "categoryCode": "5945"
-      }
-    }
-  },
   "pix-commons-qrcode-pix-4": {
     "version": 1,
     "orderId": "order-pix-commons-qrcode-pix-4",
