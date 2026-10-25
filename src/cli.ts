@@ -37,7 +37,7 @@ function summarize(p: ParsedEmvQr): string[] {
     `amount: ${p.amount ?? "(payer enters)"} ${p.currency?.alpha ?? p.currency?.numeric ?? ""}`,
   ];
   for (const a of p.merchantAccounts) {
-    const detail = a.napas ?? a.promptpay ?? a.pix ?? a.qris ?? a.qrph ?? a.paynow ?? (a.network ? { network: a.network } : a.fields);
+    const detail = a.napas ?? a.promptpay ?? a.pix ?? a.qris ?? a.qrph ?? a.paynow ?? a.khqr ?? (a.network ? { network: a.network } : a.fields);
     lines.push(`account tag ${a.tag} ${a.guid ?? ""}: ${JSON.stringify(detail)}`);
   }
   for (const i of p.issues) lines.push(`${i.level}: ${i.message}`);

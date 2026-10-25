@@ -1,9 +1,9 @@
 import { decodeTlv } from "./tlv.js";
 
-export type SchemeId = "napas" | "vnpay" | "qris" | "promptpay" | "qrph" | "pix" | "paynow" | "card-network" | "unknown";
+export type SchemeId = "napas" | "vnpay" | "qris" | "promptpay" | "qrph" | "pix" | "paynow" | "khqr" | "card-network" | "unknown";
 
 /** National interbank rails. When a QR carries several templates, these win as the primary scheme. */
-export const NATIONAL_SCHEMES: readonly SchemeId[] = ["napas", "qris", "promptpay", "qrph", "pix", "paynow"];
+export const NATIONAL_SCHEMES: readonly SchemeId[] = ["napas", "qris", "promptpay", "qrph", "pix", "paynow", "khqr"];
 
 /** VietQR: NAPAS template, GUID A000000727. */
 export interface NapasDetails {
@@ -66,6 +66,12 @@ export interface PayNowDetails {
   expiry?: string;
 }
 
+/** KHQR (Cambodia): tag 29 (individual) or 30 (merchant), sub-tag 00 holds the Bakong account ID. */
+export interface KhqrDetails {
+  kind: "individual" | "merchant";
+  bakongAccountId: string;
+}
+
 export interface MerchantAccount {
   tag: string;
   scheme: SchemeId;
@@ -82,6 +88,7 @@ export interface MerchantAccount {
   qris?: QrisDetails;
   qrph?: QrPhDetails;
   paynow?: PayNowDetails;
+  khqr?: KhqrDetails;
 }
 
 const CARD_NETWORKS: Record<string, string> = {
@@ -118,6 +125,8 @@ export function detectScheme(guid: string, tag: string, countryCode?: string): S
   if (g === "SG.PAYNOW") return "paynow";
   if (g === "COM.P2PQRPAY" || g.startsWith("PH.PPMI")) return "qrph";
   if (g === "ID.CO.QRIS.WWW") return "qris";
+  // KHQR (Cambodia, Bakong) puts a Bakong account ID such as "name@bank" where other schemes put a GUID.
+  if (countryCode === "KH" && (tag === "29" || tag === "30") && guid.includes("@")) return "khqr";
   // QRIS acquirer templates use the acquirer's reverse domain as GUID (e.g. ID.CO.BRI.WWW, COM.GO-JEK.WWW).
   if (countryCode === "ID" && Number(tag) >= 26 && Number(tag) <= 45 && g.endsWith(".WWW")) return "qris";
   return "unknown";
@@ -220,6 +229,9 @@ export function interpretMerchantAccount(
       account.qrph = { kind: g === "COM.P2PQRPAY" ? "p2p" : g.includes("P2M") ? "p2m" : "other", acquirerId: fields["01"] };
       break;
     }
+    case "khqr":
+      account.khqr = { kind: tag === "30" ? "merchant" : "individual", bakongAccountId: guid };
+      break;
     case "paynow": {
       const proxyType = fields["01"];
       account.paynow = {
