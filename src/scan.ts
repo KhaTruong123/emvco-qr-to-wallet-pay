@@ -32,18 +32,32 @@ export async function readImage(file: string): Promise<Rgba> {
   throw new Error(`Unsupported image type "${ext}"; use PNG or JPEG`);
 }
 
-/** Nearest-neighbour downscale. jsQR misses codes in some large photos that it finds at lower resolution. */
+/**
+ * Box-filter downscale: each output pixel is the average of its source block.
+ * jsQR misses codes in some large photos that it finds at lower resolution, and averaging
+ * keeps module edges cleaner than nearest-neighbour sampling.
+ */
 function downscale(img: Rgba, maxSide: number): Rgba {
   const scale = maxSide / Math.max(img.width, img.height);
   const width = Math.max(1, Math.round(img.width * scale));
   const height = Math.max(1, Math.round(img.height * scale));
   const data = new Uint8ClampedArray(width * height * 4);
   for (let y = 0; y < height; y++) {
-    const sy = Math.min(img.height - 1, Math.floor(y / scale));
+    const y0 = Math.floor(y / scale);
+    const y1 = Math.min(img.height, Math.max(y0 + 1, Math.floor((y + 1) / scale)));
     for (let x = 0; x < width; x++) {
-      const sx = Math.min(img.width - 1, Math.floor(x / scale));
-      const s = (sy * img.width + sx) * 4;
-      data.set(img.data.subarray(s, s + 4), (y * width + x) * 4);
+      const x0 = Math.floor(x / scale);
+      const x1 = Math.min(img.width, Math.max(x0 + 1, Math.floor((x + 1) / scale)));
+      const sum = [0, 0, 0, 0];
+      for (let sy = y0; sy < y1; sy++) {
+        for (let sx = x0; sx < x1; sx++) {
+          const s = (sy * img.width + sx) * 4;
+          for (let c = 0; c < 4; c++) sum[c]! += img.data[s + c]!;
+        }
+      }
+      const n = (y1 - y0) * (x1 - x0);
+      const d = (y * width + x) * 4;
+      for (let c = 0; c < 4; c++) data[d + c] = sum[c]! / n;
     }
   }
   return { data, width, height };
@@ -53,7 +67,7 @@ function downscale(img: Rgba, maxSide: number): Rgba {
 export async function decodeQrImage(file: string): Promise<string | undefined> {
   const img = await readImage(file);
   const attempts: Rgba[] = [img];
-  for (const side of [1600, 1000, 600]) {
+  for (const side of [2400, 1600, 1200, 800, 600]) {
     if (Math.max(img.width, img.height) > side) attempts.push(downscale(img, side));
   }
   for (const a of attempts) {
