@@ -1,0 +1,64 @@
+{
+  "name": "emvco-qr-to-wallet-pay",
+  "version": "0.1.0",
+  "description": "Parse EMVCo merchant QR codes (VietQR, QRIS, PromptPay, QR Ph, Pix) and map them to a CAIP-358 wallet_pay request.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "emvco-qr": "dist/src/cli.js"
+  },
+  "files": [
+    "dist/src",
+    "dist/cjs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', '{\\\"type\\\":\\\"commonjs\\\"}\\\\n')\"",
+    "test": "npm run build && node --test dist/test/",
+    "synthetic": "npm run build && node dist/scripts/generate-synthetic.js",
+    "evidence": "npm run build && node dist/scripts/evidence.js",
+    "scan": "node dist/src/cli.js scan",
+    "vectors": "npm run build && node dist/scripts/generate-vectors.js"
+  },
+  "keywords": [
+    "emvco",
+    "qr",
+    "vietqr",
+    "napas",
+    "qris",
+    "promptpay",
+    "qrph",
+    "pix",
+    "caip-358",
+    "wallet_pay"
+  ],
+  "dependencies": {
+    "jpeg-js": "^0.4.4",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "@types/pngjs": "^6.0.5",
+    "@types/qrcode": "^1.5.5",
+    "qrcode": "^1.5.4",
+    "typescript": "^5.6.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./scan": {
+      "types": "./dist/src/scan.d.ts",
+      "import": "./dist/src/scan.js",
+      "require": "./dist/cjs/scan.js"
+    }
+  },
+  "module": "dist/src/index.js"
+}
